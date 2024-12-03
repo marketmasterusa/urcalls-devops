@@ -66,9 +66,9 @@ Our video call application is a modern, scalable solution that provides:
 
 ## Development and CI/CD Pipeline
 
-![strategy Layers](cicd-p.svg "Our strategy Layers")
+![strategy Layers](images/cicd-p.svg "Our strategy Layers")
 
-![cicd pipeline Layers](cicd.svg "cicd pipeline")
+![cicd pipeline Layers](images/cicd.svg "cicd pipeline")
 ### Building and Testing (For Non-Technical Readers)
 1. **Quality Checks**
    - Automatic code testing
@@ -199,7 +199,7 @@ Our video call application is a modern, scalable solution that provides:
 
 
 ## Infrastructure Diagram
-![System Architecture](hetznar-urcalls.svg "Our System Architecture")
+![System Architecture](images/hetznar-urcalls.svg "Our System Architecture")
 
 #### System Architecture Overview
 
@@ -321,20 +321,20 @@ FastAPI → Main Database (permanent storage)
 - Backup verification
 
 ### Application Layers Diagram
-![Application Layers](applicationlayer.svg "Our Application Layers")
+![Application Layers](images/applicationlayer.svg "Our Application Layers")
 
 
 
 ## Cost Calculations
 
 ## Github Stregies
-![Github Layers](githubstrageries.svg "github Layer")
+![Github Layers](images/githubstrageries.svg "github Layer")
 
 ## DevOps Tools & Infrastructure Stack
 
 Urcalls infrastructure utilizes the following core tools and technologies:
 
-![tools Layers](tools.svg "tools Layer")
+![tools Layers](images/tools.svg "tools Layer")
 
 ### Infrastructure Management
 - **Terraform**
@@ -420,7 +420,7 @@ Urcalls infrastructure utilizes the following core tools and technologies:
  - Resource operations
  - Configuration management
 
-For detailed setup instructions, configuration examples, and best practices, refer to our DevOps documentation.
+For detailed setup instructions of the setup refer to our DevOps documentation [Devops Documentation](Devops-Setup.md).
 
 ---
 
