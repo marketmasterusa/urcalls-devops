@@ -14,7 +14,7 @@
 11. [Monitoring and Maintenance](#monitoring-and-maintenance)
 12. [Cost Calculations](#cost-calculations)
 13. [Github Stregies](#github-stregies)
-14. [DevOps Tools & Infrastructure Stack](#devOps-tools-&-infrastructure-stack)
+14. [DevOps Tools and Infrastructure Stack](#devOps-tools-and-infrastructure-stack)
 
 ## Infrastructure Overview
 
@@ -330,7 +330,7 @@ FastAPI → Main Database (permanent storage)
 ## Github Stregies
 ![Github Layers](images/githubstrageries.svg "github Layer")
 
-## DevOps Tools & Infrastructure Stack
+## DevOps Tools and Infrastructure Stack
 
 Urcalls infrastructure utilizes the following core tools and technologies:
 
