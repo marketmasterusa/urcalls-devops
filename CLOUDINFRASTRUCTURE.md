@@ -1,4 +1,4 @@
-# Comprehensive Video Call Application Infrastructure Guide
+# URCALLS Application Infrastructure Guide
 
 ## Table of Contents
 1. [Infrastructure Overview](#infrastructure-overview)
@@ -14,6 +14,7 @@
 11. [Monitoring and Maintenance](#monitoring-and-maintenance)
 12. [Cost Calculations](#cost-calculations)
 13. [Github Stregies](#github-stregies)
+14. [DevOps Tools & Infrastructure Stack](#devOps-tools-&-infrastructure-stack)
 
 ## Infrastructure Overview
 
@@ -328,6 +329,98 @@ FastAPI → Main Database (permanent storage)
 
 ## Github Stregies
 ![Github Layers](githubstrageries.svg "github Layer")
+
+## DevOps Tools & Infrastructure Stack
+
+Urcalls infrastructure utilizes the following core tools and technologies:
+
+![tools Layers](tools.svg "tools Layer")
+
+### Infrastructure Management
+- **Terraform**
+ - Hetzner Cloud resource provisioning
+ - Network configurations & security groups
+ - Storage volumes setup
+ - Load balancer configuration
+ - Infrastructure state management
+
+### Container Orchestration
+- **Kubernetes**
+ - Container orchestration & scheduling
+ - Pod lifecycle management 
+ - Auto-scaling
+ - Service discovery
+ - Network policies
+
+- **Helm**
+ - Package management
+ - Application deployment
+ - Release management
+ - Configuration templating
+ - Rollback capabilities
+
+### Quality & Security
+- **SonarQube**
+ - Static code analysis
+ - Code quality gates
+ - Security vulnerability scanning
+ - Test coverage tracking
+ - Code duplication detection
+
+### CI/CD Pipeline 
+- **Jenkins**
+ - Automated build pipelines
+ - Test automation
+ - Deployment automation
+ - Docker image building
+ - Integration with SonarQube
+
+### Monitoring & Observability
+- **Prometheus**
+ - Metrics collection
+ - Query language (PromQL)
+ - Alert rules
+ - Service discovery integration
+
+- **Grafana**
+ - Metrics visualization
+ - Custom dashboards
+ - Alert management
+ - Data source integration
+
+### Logging
+- **EFK Stack**
+ - Elasticsearch: Log storage & search
+ - Fluentd: Log collection & forwarding
+ - Kibana: Log visualization & analysis
+
+### Security
+- **HashiCorp Vault**
+ - Secrets management
+ - Encryption as a service
+ - Access control
+ - Dynamic secrets
+
+- **Cert-Manager**
+ - TLS certificate management
+ - Automated certificate renewal
+ - Integration with Let's Encrypt
+
+### Container Registry
+- **Harbor**
+ - Container image storage
+ - Image signing
+ - Vulnerability scanning
+ - Access control management
+
+### Development Tools
+- **kubectl**
+ - Kubernetes CLI
+ - Cluster management
+ - Resource operations
+ - Configuration management
+
+For detailed setup instructions, configuration examples, and best practices, refer to our DevOps documentation.
 
 ---
 
